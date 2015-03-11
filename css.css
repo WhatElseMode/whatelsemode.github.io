@@ -1,0 +1,235 @@
+@charset "utf-8";
+
+#fixedpage
+{
+	height:100%;
+	width:100%;
+	z-index:-5;
+	position:relative;
+}
+
+#headingone
+{
+	left:10%;
+	z-index:3;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position:absolute;
+	color:#012205;
+	font-size:300px;
+}
+
+#one
+{
+	position:fixed;
+    top: 40%;
+	z-index:-2;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:40px;
+}
+
+#two
+{
+	position:fixed;
+    top: 70%;
+	z-index:-3;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:30px;
+	background-color:#E0B3B4;
+}
+
+#three
+{
+	position:fixed;
+    top: 10%;
+	z-index:-3;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:0px;
+	background-color:#E0B3B4;
+}
+
+#patrickpearse
+{
+	top: 40%;
+	left:0%;
+	width:1px;
+	height:1px;
+	z-index:-2;
+	position:fixed;
+}
+
+
+#jamesconolly
+{
+	top: 40%;
+	left:25%;
+	width:1px;
+	height:1px;
+	z-index:-2;
+	position:fixed;
+}
+
+#irishvolunteers
+{
+	top: 40%;
+	left:50%;
+	width:1px;
+	height:1px;
+	z-index:0;
+	opacity:100%;
+	position:fixed;
+}
+
+#citizenarmyone
+{
+	top: 40%;
+	left:75%;
+	width:1px;
+	height:1px;
+	z-index:1;
+	position:fixed;
+}
+
+#fightone
+{
+	top: 50%;
+	width:70%;
+	height:1px;
+	width:1px;
+	z-index:5;
+	position:fixed;
+}
+
+#four
+{
+	position:fixed;
+    top: 5%;
+	margin-left: 35px;
+	width:45%;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:0px;
+	background-color:#E0B3B4;
+	z-index:5;
+}
+
+#five
+{
+	position:fixed;
+    top: 30%;
+	margin-left: 35px;
+	width:45%;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:0px;
+	background-color:#E0B3B4;
+	z-index:5;
+}
+
+#six
+{
+	position:fixed;
+    top: 60%;
+	margin-left: 35px;
+	width:45%;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:0px;
+	background-color:#E0B3B4;
+	z-index:5;
+}
+
+#seven
+{
+	position:fixed;
+	height:200px;
+    top: 10%;
+	margin-left: 5px;
+	width:100%;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:20px;
+	background-color:#E0B3B4;
+	z-index:10;
+}
+
+#eight
+{
+	position:fixed;
+	height:200px;
+    top: 40%;
+	margin-left: 15px;
+	width:100%;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:20px;
+	background-color:#E0B3B4;
+	z-index:10;
+}
+
+#nine
+{
+	position:fixed;
+	height:200px;
+    top: 60%;
+	margin-left: 25px;
+	width:100%;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:20px;
+	background-color:#E0B3B4;
+	z-index:10;
+}
+
+#ten
+{
+	position:fixed;
+	height:200px;
+    top: 30%;
+	margin-left: 35px;
+	left:30%
+	width:70%;	
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#012205;
+	font-size:0px;
+	background-color:#E0B3B4;
+	z-index:10;
+}
+
+#backgroundpageone
+{
+	height:100%;
+	width:100%;
+	z-index:0;
+	position:relative;
+}
+
+#backgroundpagethree
+{
+	top:1%;
+	height:100%;
+	width:100%;
+	z-index:5;
+	position: relative;
+}
+
+#backgroundpagetwo
+{
+	height:100%;
+	width:100%;
+	z-index:0;
+	position:fixed;
+    top: 65%;
+}
+
+#flagirish
+{
+	height:50%;
+	width:100%;
+	z-index:1;
+	float:right;
+	position:relative;
+}
+

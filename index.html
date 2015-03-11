@@ -1,0 +1,173 @@
+<!doctype html>
+<html><head>
+<meta charset="utf-8">
+<title>Assignment 1</title>
+<script type="text/javascript" src="jquery-1.11.2.js"></script>
+
+<script type="text/javascript" src="script.js"></script>
+
+<script type="text/javascript" src="jquery.scrolling-parallax.js"></script>
+
+<script>
+	$(document).ready(function() {		
+		$("#headingone").hide();
+		$("#ten").hide();
+		$("#fightone").hide();
+
+			$("#headingone").fadeIn(5000)
+			$("#seven").hide();
+			$("#eight").hide();
+			$("#nine").hide();;
+			
+
+		$(window).scroll(function()
+		 {
+			var top =0;
+			top = $(window).scrollTop();
+/*$("#flagirish").hide();*/
+			
+			if($(window).scrollTop() >=50)
+			{
+			$("#scrollPosition").text(top);
+			$("#backgroundpageone").css('top', top*-1.5+'px');
+			$("#flagirish").css('top', top*.3+'px');
+			/*$("#flagengland").show();
+			$("#flagirish").show();*/
+			}
+			
+			if($(window).scrollTop() >=1500)
+			{
+			$("#one").fadeOut(2500)
+			}
+			
+			if($(window).scrollTop() >=1800)
+			{
+			$("#two").css('top', top*-.001+'px');
+			}
+			
+			if($(window).scrollTop() >=1900)
+			{
+			$("#three").animate({fontSize: '30px'}, 2000);
+			$("#jamesconolly").animate( {width: '350px', height:'350px'}, 1500);
+			$("#irishvolunteers").animate( {width: '350px', height:'350px'}, 2000);
+			$("#citizenarmyone").animate( {width: '350px', height:'350px'}, 2500);
+			$("#patrickpearse").animate( {width: '350px', height:'350px'}, 1000);
+
+
+			}
+		
+			if($(window).scrollTop() >=2000)
+			{
+			
+			$("#scrollPosition").text(top);
+			$("#backgroundpagetwo").slideUp(2000)
+			 $("#two").slideUp(1000);
+			}
+			
+			if($(window).scrollTop() >=3900)		
+			{
+			$("#four").animate({fontSize: '30px'}, 1000);
+			$("#five").animate({fontSize: '30px'}, 1500);
+			$("#six").animate({fontSize: '30px'}, 2000);
+			$("#jamesconolly").hide();
+		    $("#patrickpearse").hide();
+			}
+			
+			if($(window).scrollTop() >=4000)		
+			{
+			$("#four").animate({opacity: 0,}, 500);
+			$("#five").animate({opacity: 0,}, 500);
+			$("#jamesconolly").hide();
+		    $("#patrickpearse").hide();
+			$("#three").hide();
+			$("#six").animate({opacity: 0,}, 500);
+			$("#irishvolunteers").animate({left: '-20%'}, 1000);
+			$("#citizenarmyone").animate({left: '-20%'}, 1000);
+
+			}
+			
+			if($(window).scrollTop() >=5500)
+			{
+			$("#seven").slideDown('fast');
+			$("#eight").slideDown('medium');
+			$("#nine").slideDown('slow');
+			}
+			
+		if($(window).scrollTop() >=6500)
+			{
+				$("#seven").fadeOut(2500);
+			$("#eight").fadeOut(2500);
+			$("#nine").fadeOut(2500);
+			$("#ten").fadeIn(3000);
+			$("#fightone").fadeIn(1000);
+
+			}
+			
+    });
+});
+
+
+</script>
+
+<link href="css.css" rel="stylesheet" type="text/css">
+</head>
+
+
+<body>
+<div id="flag">
+
+	 <h1 id="headingone"> Easter Rising 1916</h1>
+
+	<img src="Images/Flagirish.jpg" id="flagirish">
+</div>
+
+	<p id="one">"The build-up to Centenary of the 1916 Rising is rapidly developing into a battle over not only how we view our past but also the vision we have for our future. We begin the countdown to 2016 and in doing so set out the relevance of 1916 for the Ireland of today....."</p>
+    
+<p id="two">The 1916 Easter Rising was mounted by Irish republicans to end British rule in Ireland, secede from the United Kingdom of Great Britain and Ireland and establish an independent Irish Republic.Organised by seven members of the Military Council of the Irish Republican Brotherhood, the Rising began on Easter Monday, 24 April 1916, and lasted for six days.</p>
+
+ <p id="three"> Members of the Irish Volunteers  led by schoolmaster and Irish language activist Patrick Pearse, joined by the smaller Irish Citizen Army of James Connolly, along with 200 members of Cumann na mBan — seized key locations in Dublin and proclaimed the Irish Republic independent of the United Kingdom.
+
+	<p id="four"> Monday 
+Early on Monday morning, 24 April 1916, roughly 1,200 Volunteers and Citizen Army members took over strongpoints in Dublin city centre. A joint force of about 400 Volunteers and Citizen Army gathered at Liberty Hall under the command of Commandant James Connolly. 
+</p>
+
+<p id="five">Tuesday to Saturday
+Lord Wimborne, the Lord Lieutenant, declared martial law on Tuesday evening and handed over civil power to Brigadier-General William Lowe. British forces initially put their efforts into securing the approaches to Dublin Castle and isolating the rebel headquarters, which they believed was in Liberty Hall. 
+</p>
+
+<div id="intro">
+	<img src="Images/Typewriter.jpg" id="fixedpage">
+
+	<img src="Images/Backgroundone.jpg" id="backgroundpageone">
+
+	<img src="Images/Backgroundtwo.jpg" id="backgroundpagetwo">
+
+	<img src="Images/Backgroundthree.jpg" id="backgroundpagethree">
+    
+     <img src="Images/Patrickpearse.jpg" id="patrickpearse">
+     
+     <img src="Images/Jamesconolly.jpg" id="jamesconolly">
+     
+      <img src="Images/Irishvolunteers.jpg" id="irishvolunteers">
+      
+      <img src="Images/Citizenarmyone.jpg" id="citizenarmyone">
+      
+      <img src="Images/Fightone.jpg" id="fightone">
+
+
+</div>
+    
+	<p id="six">Wednesday, 26 April
+ The guns at Trinity College and patrol vessel Helga shelled Liberty Hall, and the Trinity College guns then began firing at rebel positions, first at Boland's Mill and then in O'Connell Street.
+The principal rebel positions at the GPO, the Four Courts, Jacob's Factory and Boland's Mill saw little combat. Reinforcements were sent to Dublin from England, heavy fighting occurred at the rebel-held positions around the Grand Canal as these troops advanced towards Dublin.
+</p>
+    <p id="seven">Irish Volunteer units mobilised on Easter Sunday in several places outside of Dublin, but due to Eoin MacNeill's countermanding order, most of them returned home without fighting. In addition, due to the interception of the German arms aboard the Aud, the provincial Volunteer units were very poorly armed.
+</p>
+	<p id="eight">The GPO was the only major rebel post to be physically taken during the week. In order to prevent the further slaughter of Dublin citizens, and in the hope of saving the lives of our followers now surrounded and hopelessly outnumbered, the members of the Provisional Government present at headquarters have agreed to an unconditional surrender, and the commandants of the various districts in the City and County will order their commands to lay down arms
+    </p>
+	<p id="nine">With vastly superior numbers and artillery, the British army quickly suppressed the Rising, and Pearse agreed to an unconditional surrender on Saturday 29 April. Most of the leaders were executed following courts-martial, but the Rising succeeded in bringing physical force republicanism back to the forefront of Irish politics. Rebel and civilian casualties were 318 dead and 2,217 wounded. The Volunteers and ICA recorded 64 killed in action, but otherwise Irish casualties were not divided into rebels and civilians.
+</p>
+	<p id="ten">The Easter Rising lasted from Easter Monday 24 April 1916 to Easter Saturday 29 April 1916, so the actual calendrical centenary is from 24 to 29 April 2016. But 1916 commemorations normally occur at Easter, which is a moveable feast, rather than at the calendrical anniversary. In 2016, Easter falls on Sunday 27 March 2016, with Easter Monday on 28 March 2016 and Easter Saturday on 3 April 2016.
+    </p>
+</body>
+</html>
